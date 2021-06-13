@@ -6,7 +6,7 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>陳宜湞</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="assets/img/c.png" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -25,7 +25,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">關於我</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">關於我</a></li> -->
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">工作內容</a></li>
 					<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">工作詳述</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">學習</a></li>
@@ -113,6 +113,7 @@
                             <h3 class="mb-0">新人訓練</h3>
                             <div class="subheading mb-3">Training</div>
                             <p>在1/18到2/9的18天中，來自各個學校的實習生都聚集在一起進行新人訓練課程，課程內容主要分成五堂課：資料庫語言(SQL)、前端基礎課程(Front End Basic)、.Net MVC課程、前端進階課程(Front End Advanced)、後端處理課程(Back End)。每堂課都會先看教學影片、再來寫Workshop的作業、最後進行CodeReview檢討每個人的程式碼。</p>                           
+							<img src="assets/img/train.jpg" width="100%">
 						</div>
                         <!-- <div class="flex-shrink-0"><span class="text-primary">March 2013 - Present</span></div> -->
                     </div>
@@ -133,6 +134,7 @@
 								<li>
 									<span class="fa-li"><i class="fas fa-angle-right"></i></span>
 									寫Dac的funciton來執行資料庫的SP獲得資料，參數要從舊報表對應的asp檔找。
+									<img src="assets/img/ReportDac.jpg" width="100%">
 								</li>
 								<li>
 									<span class="fa-li"><i class="fas fa-angle-right"></i></span>
@@ -141,6 +143,7 @@
 								<li>
 									<span class="fa-li"><i class="fas fa-angle-right"></i></span>
 									寫Controller的function，將讀取報表的紀錄寫進log，呼叫Dac的function後將資料庫查詢出來的資料丟進新報表裡並產生報表頁面。
+									<img src="assets/img/ReportController.jpg" width="100%">
 								</li>
 								<li>
 									<span class="fa-li"><i class="fas fa-angle-right"></i></span>
@@ -180,15 +183,17 @@
 								<li>
 									<span class="fa-li"><i class="fas fa-check"></i></span>
 									解決無權限使用者點入政府資料開放管理系統的網頁後應該要出現「無使用權限」的提醒視窗，但是卻出現錯誤造成網頁全部空白的問題。
+									<img src="assets/img/NoRight.jpg" width="100%">
 								</li>
 								<li>
 									<span class="fa-li"><i class="fas fa-check"></i></span>
 									在資料集維護功能裡利用NPOI新增一個「匯出檔案」的功能，將根據輸入條件查詢後的結果匯出成Excel檔，並依照處室單位分頁。
-								    <!-- <img src="assets/img/Git.jpg"> -->
+								    <img src="assets/img/Excel.jpg" width="100%">
 								</li>
 								<li>
 									<span class="fa-li"><i class="fas fa-check"></i></span>
 									將提供單位的下拉選單改為可以同時用文字搜尋的下拉選單，並解決修改資料存檔後後查詢結果會全部清空的問題。
+									<img src="assets/img/List.jpg" width="100%">
 								</li>
 							</ul>                             
 						</div>
@@ -247,7 +252,8 @@
                             <div class="subheading mb-3">SQL</div>
                             <p>在學校時就已經學過基本的SQL語法(新增、刪除、修改、查詢)，在新人訓練時又教了更多沒碰過的東西，像是子查詢、PIVOT、Transactions等用法。在公司寫程式時除了功能需要正確外，也要注意效能的問題，還有許多快捷鍵用法都可以讓我們在寫程式時更有效率，例如：Ctrl+R可以收起SQL查詢結果的區塊、選取Table名字再按Alt+F1可以查看Table的資料型態。</p>
                             <p>在部門裡幫同事寫報表時也學到了一個非常好用的工具SQL Server Profiler，只要開啟這個工具就可以錄下這段時間裡資料庫執行的所有事情，如果網頁寫到一半發現資料出不來，或是維護其他人寫的系統卻不知道這筆資料是如何產生的時候，都可以使用這個工具檢查資料庫執行過什麼語法，再將這段語法貼到SQL裡執行就可以很清楚的看到結果，問題出在哪裡都一目了然。</p>
-                        </div>
+                            <img src="assets/img/Sql.jpg" width="100%">
+						</div>
                         <!-- <div class="flex-shrink-0"><span class="text-primary">March 2013 - Present</span></div> -->
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -255,7 +261,9 @@
                             <h3 class="mb-0">前端</h3>
                             <div class="subheading mb-3">Front End Basic</div>
                             <p>這堂課主要教了KendoUI套件以及LocalStorage，KendoUI套件讓我們不用在特別設計就可以在網頁上使用漂亮的元件，而LocalStorage則是將資料儲存在用戶端的瀏覽器中，不需要連接到遠端資料庫就可以在網頁上運用資料。</p>
-                        </div>
+                            <img src="assets/img/Kendo.jpg" width="100%">
+                            <img src="assets/img/Local.jpg" width="100%">
+						</div>
                         <!-- <div class="flex-shrink-0"><span class="text-primary">December 2011 - March 2013</span></div> -->
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -263,7 +271,7 @@
                             <h3 class="mb-0">MVC架構</h3>
                             <div class="subheading mb-3">.Net MVC</div>
                             <p>MVC架構主要分成Model、Controller、View三層，一開始接觸的時候完全搞不懂這三層之間的關係，花了一段時間搭配中斷點看範例程式後才比較清楚知道每一層的作用，以及要怎麼使用這個架構。這堂課是讓我最挫折但也是收穫最多的課，CodeReview時不管是主管提醒或觀察其他實習生的程式碼，都會發現自己還有許多小細節沒有想得周全。</p>
-                            <!-- <img src="assets/img/MVC.jpg"> -->
+                            <img src="assets/img/MVC.jpg" width="100%">
 						</div>
                         <!-- <div class="flex-shrink-0"><span class="text-primary">July 2010 - December 2011</span></div> -->
                     </div>
@@ -273,7 +281,7 @@
                             <div class="subheading mb-3">GIT/SVN</div>
                             <p>在實習前我就很好奇要如何很多人一起開發程式，以前遇到需要寫程式的分組報告作業時，因為不知道該怎麼分工通常都會只有一個人負責寫程式，其他人想幫忙也不知道該怎麼下手。在新人訓練的第一堂課就教我們怎麼使用版本控制，也實際讓我們用練習用Git上傳自己的Workshop作業，進入部門後是使用SVN上傳自己完成的部分。</p>
                             <p>學會了版本控制後這學期與同學參加的比賽和專題就有使用GitHub一起開發程式，雖然一開始大家都還不太會用，導致情況有點混亂，但是搞懂以後就覺得這樣分工寫程式的感覺非常好。未來進入許多資訊公司應該都會接觸版本控制，除了可以分工以外，GitHub也可以保存自己寫過的作品集，所以我覺得這是一項非常值得學習且實用的工具。</p>
-                            <!-- <p><img src="assets/img/Git.jpg"></p>                     -->
+                            <img src="assets/img/Git.jpg" width="100%">
 						</div>
                         <!-- <div class="flex-shrink-0"><span class="text-primary">September 2008 - June 2010</span></div> -->
                     </div>
