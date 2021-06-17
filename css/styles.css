@@ -10093,6 +10093,16 @@ p.lead {
     display: block;
   }
 }
+.cyc-icons .cyc-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 100%;
+  font-size: 1rem;
+  margin-right: 0.7rem;
+}
 .social-icons .social-icon {
   display: inline-flex;
   align-items: center;
